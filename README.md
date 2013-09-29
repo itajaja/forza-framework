@@ -1,4 +1,4 @@
 forza-framework
 ===============
 
-A MMVM framework based on MVVMLight
+A MMVM framework based on [MVVMLight](http://mvvmlight.codeplex.com/).
