@@ -59,7 +59,7 @@
     </Compartments>
     <TypeIdentifier>
       <HashCode>AAAAAgAACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ViewModel\MainViewModel.cs</FileName>
+      <FileName>ViewModel\ViewModelSample.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ForzaFramework.ViewModel.ViewModelLocator">
