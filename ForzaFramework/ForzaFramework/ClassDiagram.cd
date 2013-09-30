@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ForzaFramework.ViewSample">
+    <Position X="8" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ViewModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ForzaFramework.Design.DesignDataService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Design\DesignDataService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="ForzaFramework.Model.DataService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DataService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.112" Collapsed="true" />
+  </Class>
+  <Class Name="ForzaFramework.Model.ModelBase">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ModelBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForzaFramework.Model.ModelSample">
+    <Position X="0.75" Y="5.5" Width="1.5" />
+    <Members>
+      <Field Name="_title" Hidden="true" />
+      <Method Name="ModelSample" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ModelSample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForzaFramework.ViewModel.ViewModelSample">
+    <Position X="5.75" Y="5" Width="1.5" />
+    <Members>
+      <Field Name="_dataService" Hidden="true" />
+      <Field Name="_welcomeTitle" Hidden="true" />
+      <Field Name="WelcomeTitlePropertyName" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForzaFramework.ViewModel.ViewModelLocator">
+    <Position X="7.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelLocator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Main" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GalaSoft.MvvmLight.ObservableObject" Collapsed="true">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GalaSoft.MvvmLight.ViewModelBase">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <InheritanceLine Type="GalaSoft.MvvmLight.ObservableObject" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.312" />
+        <Point X="3.75" Y="1.625" />
+        <Point X="5.75" Y="1.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ForzaFramework.Model.IdentifiableModel">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <Members>
+      <Field Name="_id" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\IdentifiableModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForzaFramework.Model.ModelSample2">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <Members>
+      <Field Name="_intProperty" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAIgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ModelSample2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ForzaFramework.Model.IDataService">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\IDataService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

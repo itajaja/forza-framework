@@ -1,21 +1,30 @@
 ﻿using System.Windows;
 using ForzaFramework.ViewModel;
+using ForzaFramework.ViewModel;
 
 namespace ForzaFramework
 {
-    //TODO rename
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// View Class Implementation Sample
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ViewSample
     {
+        public ViewModelSample ViewModel
+        {
+            get
+            {
+                return DataContext as ViewModelSample;
+            }
+        }
+        
         /// <summary>
-        /// Initializes a new instance of the MainWindow class.
+        /// Initializes a new instance of the ViewSample class.
         /// </summary>
-        public MainWindow()
+        public ViewSample()
         {
             InitializeComponent();
             Closing += (s, e) => ViewModelLocator.Cleanup();
         }
+
     }
 }

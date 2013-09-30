@@ -3,14 +3,13 @@ using ForzaFramework.Model;
 
 namespace ForzaFramework.ViewModel
 {
-    //TODO rename
     /// <summary>
-    /// This class contains properties that the main View can data bind to.
+    /// ViewModel Class Implementation Sample
     /// <para>
     /// See http://www.galasoft.ch/mvvm
     /// </para>
     /// </summary>
-    public class MainViewModel : ViewModelBase
+    public class ViewModelSample : ViewModelBase
     {
         private readonly IDataService _dataService;
 
@@ -47,7 +46,7 @@ namespace ForzaFramework.ViewModel
         /// <summary>
         /// Initializes a new instance of the MainViewModel class.
         /// </summary>
-        public MainViewModel(IDataService dataService)
+        public ViewModelSample(IDataService dataService)
         {
             _dataService = dataService;
             _dataService.GetData(

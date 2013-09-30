@@ -7,22 +7,8 @@ using GalaSoft.MvvmLight;
 
 namespace ForzaFramework.Model
 {
-    public abstract class ModelBase : ObservableObject, IEquatable<ModelBase>
+    public abstract class ModelBase : ObservableObject
     {
-        //TODO: extract interface
-        Guid _id;
-
-        public Guid Id
-        {
-            get { return _id; }
-            set { Set("Id", ref _id, value); }
-        }
-
-        public override int GetHashCode()
-        {
-            return _id.GetHashCode();
-        }
-
-        public abstract bool Equals(ModelBase other);
+        public override abstract bool Equals(object other);
     }
 }

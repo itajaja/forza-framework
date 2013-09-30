@@ -8,27 +8,27 @@ namespace ForzaFramework.Model
     /// <summary>
     /// Model Class Implementation Sample
     /// </summary>
-    public class ModelSample : ModelBase
+    public class ModelSample2 : IdentifiableModel
     {
-        private string _title;
+        private int _intProperty;
 
-        public string Title
+        public int IntProperty
         {
-            get { return _title; }
-            set { Set("Title", ref _title, value); }
+            get { return _intProperty; }
+            set { Set("IntProperty", ref _intProperty, value); }
         }
 
-        public ModelSample(string title)
+        public ModelSample2(int prop)
         {
-            Title = title;
+            IntProperty = prop;
         }
 
         public override bool Equals(object other)
         {
-            var castOther = other as ModelSample;
+            var castOther = other as ModelSample2;
             if(castOther != null)
             {
-                return castOther.Title == Title;
+                return castOther.Id.Equals(Id);
             }
             return false;
         }
