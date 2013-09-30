@@ -3,6 +3,7 @@ using ForzaFramework.Model;
 
 namespace ForzaFramework.ViewModel
 {
+    //TODO rename
     /// <summary>
     /// This class contains properties that the main View can data bind to.
     /// <para>
